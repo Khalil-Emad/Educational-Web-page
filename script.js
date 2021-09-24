@@ -32,10 +32,10 @@ function botVoice(message) {
     } else {
         speech.text = "This is my default response";
     }
-    // setTimeout(function() {
-    //     img.src = "";
-    //     voice2text.textContent = "";
-    // }, 5000);
+     setTimeout(function() {
+         img.src = "";
+         voice2text.textContent = "";
+     }, 5000);
     speech.volume = 1;
     speech.rate = 1;
     speech.pitch = 1;
